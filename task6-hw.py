@@ -17,14 +17,14 @@ bilet13=int(bilet[0:3])
 bilet46=int(bilet[3:6])
 print(bilet13)
 print(bilet46)
-sum13=int(0)
+sum13=0
 while bilet13>9:
      sum13=sum13+bilet13%10
 #     print(chislo_3z)
      bilet13=bilet13//10
 # print(sum)
 print ('Сумма 1-3 цифр в билете =', sum13+bilet13%10)
-sum46=int(0)
+sum46=0
 while bilet46>9:
      sum46=sum13+bilet46%10
 #     print(chislo_3z)
